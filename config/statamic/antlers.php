@@ -57,4 +57,6 @@ return [
 
     ],
 
+    'version' => 'runtime',
+
 ];

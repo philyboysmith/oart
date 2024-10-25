@@ -9,10 +9,27 @@ export default {
     ],
 
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                sans: ['FoundersGrotesk', 'sans-serif'],
+            },
+            container: {
+                center: true,
+                padding: '1rem',
+                maxWidth: '1280px',
+            }
+        },
+        
     },
+    
 
     plugins: [
         require('@tailwindcss/typography'),
+        function ({ addComponents }) {
+            addComponents({
+              '.container': {
+                maxWidth: '1280px'
+              }})
+            }
     ],
 };
