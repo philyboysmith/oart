@@ -1,0 +1,34 @@
+{{ if image}}
+<div class="h-[calc(100vh-100px)] max-h-[1024px] w-full relative overflow-hidden hero bg-zinc-950">
+    {{ image}}
+    <img class="w-full h-full absolute object-cover blurred" src="{{url}}" alt="{{alt}}" />
+    <img class="w-full h-full absolute object-cover" src="{{url}}" alt="{{alt}}" />
+    {{ /image}}
+    <div class="overlay"></div>
+    <div class="absolute inset-0 flex flex-col items-center justify-center">
+        <div class="container text-center w-full max-w-xl space-y-4">
+            <div class="text-white text-xl lg:text-2xl [&>h2]:lg:text-6xl [&>h2]:font-bold space-y-2">
+                {{ caption }}
+            </div>
+            <div>
+                {{ partial:components/button inverted="true" }}
+            </div>
+        </div>
+    </div>
+    {{ svg src="/assets/svg/wave.svg" class="absolute fill-white bottom-0 w-full block -mb-[1px] " }}
+
+</div>
+
+{{ else }}
+
+<div class="w-full relative overflow-hidden hero pt-48 pb-32">
+   
+        <div class="container text-center w-full max-w-xl space-y-4">
+            <div class="text-neutral text-xl lg:text-2xl [&>h2]:lg:text-6xl [&>h2]:font-bold space-y-2">
+                <h2>{{ title }}</h2>
+            </div>
+        </div>
+    {{ svg src="/assets/svg/wave.svg" class="absolute fill-white bottom-0 w-full block -mb-[1px] " }}
+</div>
+
+{{ /if }}

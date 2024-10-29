@@ -1,4 +1,13 @@
 name: 'Phil Smith'
 super: true
-id: 22673daa-f7fe-4bf3-b485-67a06a05552b
-password_hash: $2y$12$rgJOnuno.McDWeHrNz77euarNRMcmA5lgM6QF0J1Ai59pBmvoB7t.
+id: 6d534e9b-7329-4caa-8f39-74be0a74c686
+password_hash: $2y$12$mCE8OJTwsBCS3x77V/1Cs.YVjnWQ7jPi.Oa8a1YMfDbyaITdrZRqC
+preferences:
+  collections:
+    datapoints:
+      columns:
+        - title
+        - status
+        - ammonia
+        - nitrate
+        - phosphate

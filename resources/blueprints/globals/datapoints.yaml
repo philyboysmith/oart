@@ -1,0 +1,39 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: Datapoints
+        fields:
+          -
+            handle: datapoints
+            field:
+              type: grid
+              display: Datapoints
+              sortable: false
+              mode: stacked
+              reorderable: false
+              fields:
+                -
+                  handle: date
+                  field:
+                    type: date
+                    display: Date
+                -
+                  handle: ammonia
+                  field:
+                    input_type: number
+                    type: text
+                    display: 'Ammonia Levels'
+                -
+                  handle: phosphate
+                  field:
+                    input_type: number
+                    type: text
+                    display: 'Phosphate Levels'
+                -
+                  handle: nitrate
+                  field:
+                    input_type: number
+                    type: text
+                    display: 'Nitrate Levels'

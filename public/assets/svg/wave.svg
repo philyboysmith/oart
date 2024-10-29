@@ -1,9 +1,16 @@
-
-<svg viewBox="0 0 1440 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Path 2</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
-        <g id="Desktop-HD" transform="translate(0.000000, -627.000000)" >
-            <path d="M0,685 C149.598958,652.088542 282.320313,636.183594 398.164063,637.285156 C571.929688,638.9375 594.050781,684.6875 740.5,685 C886.949219,685.3125 1001.94141,626.300781 1104.25391,627.792969 C1206.56641,629.285156 1362.25391,684.6875 1440,685 C1491.83073,685.208333 1011.83073,685.208333 0,685 Z" id="Path-2"></path>
-        </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1443.8 57.4">
+  <!-- Generator: Adobe Illustrator 29.0.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 186)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Page-1">
+    <g id="Desktop-HD">
+      <path id="Path-2" class="st0" d="M0,57.2C149.6,24.3,282.3,8.4,398.2,9.5c173.8,1.7,195.9,47.4,342.3,47.7S1001.9-1.5,1104.3,0s258,56.9,335.7,57.2c51.8.2-428.2.2-1440,0Z"/>
     </g>
+  </g>
 </svg>

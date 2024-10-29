@@ -1,0 +1,69 @@
+{
+  "_@alpinejs-TglsjoKA.js": {
+    "file": "assets/@alpinejs-TglsjoKA.js",
+    "name": "@alpinejs"
+  },
+  "_alpinejs-BGcqaHQq.js": {
+    "file": "assets/alpinejs-BGcqaHQq.js",
+    "name": "alpinejs"
+  },
+  "_axios-CYRnxaT6.js": {
+    "file": "assets/axios-CYRnxaT6.js",
+    "name": "axios"
+  },
+  "_laravel-precognition-alpine-Db-MIXDH.js": {
+    "file": "assets/laravel-precognition-alpine-Db-MIXDH.js",
+    "name": "laravel-precognition-alpine",
+    "imports": [
+      "_laravel-precognition-taiq34mt.js",
+      "_lodash-es-BeZXkzNc.js"
+    ]
+  },
+  "_laravel-precognition-taiq34mt.js": {
+    "file": "assets/laravel-precognition-taiq34mt.js",
+    "name": "laravel-precognition",
+    "imports": [
+      "_axios-CYRnxaT6.js",
+      "_lodash-es-BeZXkzNc.js"
+    ]
+  },
+  "_lodash-es-BeZXkzNc.js": {
+    "file": "assets/lodash-es-BeZXkzNc.js",
+    "name": "lodash-es"
+  },
+  "resources/css/site.css": {
+    "file": "assets/site-7UKzRbu3.css",
+    "src": "resources/css/site.css",
+    "isEntry": true
+  },
+  "resources/fonts/FoundersGrotesk-Bold.woff2": {
+    "file": "assets/FoundersGrotesk-Bold-1RKliwf-.woff2",
+    "src": "resources/fonts/FoundersGrotesk-Bold.woff2"
+  },
+  "resources/fonts/FoundersGrotesk-Light.woff2": {
+    "file": "assets/FoundersGrotesk-Light-DOTTCAKA.woff2",
+    "src": "resources/fonts/FoundersGrotesk-Light.woff2"
+  },
+  "resources/fonts/FoundersGrotesk-Medium.woff2": {
+    "file": "assets/FoundersGrotesk-Medium-XuZEYq4K.woff2",
+    "src": "resources/fonts/FoundersGrotesk-Medium.woff2"
+  },
+  "resources/fonts/FoundersGrotesk-Regular.woff2": {
+    "file": "assets/FoundersGrotesk-Regular-CYqmrR2Q.woff2",
+    "src": "resources/fonts/FoundersGrotesk-Regular.woff2"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-DxJBDtNm.js",
+    "name": "site",
+    "src": "resources/js/site.js",
+    "isEntry": true,
+    "imports": [
+      "_alpinejs-BGcqaHQq.js",
+      "_@alpinejs-TglsjoKA.js",
+      "_laravel-precognition-alpine-Db-MIXDH.js",
+      "_laravel-precognition-taiq34mt.js",
+      "_axios-CYRnxaT6.js",
+      "_lodash-es-BeZXkzNc.js"
+    ]
+  }
+}

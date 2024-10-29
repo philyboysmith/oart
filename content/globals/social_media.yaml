@@ -1,0 +1,21 @@
+title: 'Social media'
+data:
+  social_media:
+    -
+      id: m2u12cx2
+      handle: OuseAndAdurRiversTrust/
+      prefix: 'https://www.facebook.com/'
+      type: facebook
+      enabled: true
+    -
+      id: m2u12mtf
+      handle: 'company/ouse-&-adur-rivers-trust/'
+      prefix: 'https://www.linkedin.com/'
+      type: linkedin
+      enabled: true
+    -
+      id: m2u14dbl
+      handle: OuseAdurRT
+      prefix: 'https://www.twitter.com/'
+      type: twitter
+      enabled: true
