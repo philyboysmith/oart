@@ -1,6 +1,20 @@
-{{ svg src="/assets/svg/wave.svg" class="fill-sky-800 w-full  block  -mb-[2px]" }}
+{{ svg src="/assets/svg/wave.svg" class="fill-[#bbd9ed] w-full  block  -mb-[2px] " }}
+<div class="bg-[#bbd9ed] py-16 sm:py-24">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 text-center">
+      <h2 class="mx-auto max-w-2xl text-balance text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">Want to keep in touch? Sign up for our newsletter.</h2>
+      <form class="mt-10 max-w-md mx-auto">
+        <div class="flex gap-x-4">
+          <label for="email-address" class="sr-only">Email address</label>
+          <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6" placeholder="Enter your email">
+          <button type="submit" class="flex-none rounded-md bg-sky-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-sky-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-600">Subscribe</button>
+        </div>
+        <p class="mt-4 text-sm/6 text-gray-900">We care about your data. Read our <a href="#" class="font-semibold text-sky-600 hover:text-sky-500">privacy&nbsp;policy</a>.</p>
+      </form>
+    </div>
+  </div>
+{{ svg src="/assets/svg/wave.svg" class="fill-sky-800 w-full  block  -mb-[2px] bg-[#bbd9ed] " }}
 <footer class="bg-sky-800 text-white">
-    <div class="container pb-6">
+    <div class="container py-6">
         <div class="flex justify-between items-end">
             <div class="max-w-sm">
                 <a class="flex gap-4 w-72 mb-2">
@@ -15,12 +29,22 @@
                 <p>Registered charity number: 1082447 <br />&copy; {{ now | format="Y" }} Ouse & Adur Tivers Trust</p>
             </div>
             <div class="text-right">
-                <div class="sub-title mt-6">Our Partners</div>
-                <hr class="w-24 h-4 border-t-2 border-t-white my-1 ml-auto"/>
+                <nav class="flex gap-2 lg:justify-end">
+                    <a href="https://www.facebook.com/OuseAndAdurRiversTrust/" target="_blank">
+                        {{svg src="/assets/svg/facebook" class="w-10 h-10" height="24" width="24"}}
+                    </a>
+                    <a href="https://twitter.com/OuseAdurRT" target="_blank">
+                        {{svg src="/assets/svg/x" class="w-10 h-10" height="24" width="24"}}
+                    </a>
+                    <a href="https://www.linkedin.com/company/ouse-&-adur-rivers-trust/posts/?feedView=all" target="_blank">
+                        {{svg src="/assets/svg/linkedin" class="w-10 h-10" height="24" width="24"}}
+                    </a>
+                </nav>
+                <hr class="w-24 h-4 border-t-2 border-t-white my-6 ml-auto"/>
                 <div class="flex gap-4">
-                    <a href="#">
+                    <a href="https://adurandousecatchment.org.uk/" target="_blank">
                         <img src="/aop.png" alt="Logo" class="h-12 w-auto" />
-                    </a><a href="">
+                    </a><a href="https://adurandousecatchment.org.uk/" target="_blank">
                         <img src="/one-percent.png" alt="Logo" class="h-12 w-auto" />
                     </a>
                 </div>
