@@ -1,0 +1,8 @@
+name: sfsdf
+email: sdfsdf@sdfd.com
+consent: true
+radio_field: gift_aid
+stripe_checkout_field:
+  value: payment
+  checkout_session_id: cs_live_a1Qfz17q1ww5QRslFdURzbh5t8ScBUR9V7LG6lHeWYMbTvnH5yUt0ylIhr
+donation_value: '10'

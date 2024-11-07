@@ -1,0 +1,88 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              display: Name
+              type: text
+              validate:
+                - required
+                - 'min:2'
+              localizable: true
+              width: 66
+          -
+            handle: email
+            field:
+              display: 'Email address'
+              type: text
+              validate:
+                - required
+                - email
+              localizable: true
+              width: 66
+          -
+            handle: consent
+            field:
+              inline_label: 'I agree that my submitted data is being collected and stored.'
+              display: Consent
+              type: toggle
+              validate:
+                - accepted
+              visibility: hidden
+          -
+            handle: radio_field
+            field:
+              options:
+                -
+                  key: gift_aid
+                  value: 'I agree to the Ouse and Adur Rivers Trust claiming tax under the Gift Aid scheme on all my qualifying gifts of money made today, in the past 4 years and in the future until I advise otherwise. I am a UK taxpayer and understand that if I pay less Income Tax and/or Capital Gains Tax than the amount of Gift Aid claimed on all my donations in that tax year it is my responsibility to pay any difference.'
+                -
+                  key: no_gift_aid
+                  value: 'I am a non-taxpayer and therefore do not qualify for Gift Aid.'
+              type: radio
+              display: 'Radio Field'
+          -
+            handle: stripe_checkout_field
+            field:
+              products:
+                -
+                  id: m2yvh1l1
+                  product_id: prod_RA6gfHy5NJOxzo
+                  has_quantity: 1
+                  adjustable_quantity: false
+                  handle: donation_value
+              success_url: 'https://bbc.co.uk'
+              type: stripe_checkout
+              display: 'Stripe Checkout Field'
+              customer_email: email
+              mode_choice: 'no'
+          -
+            handle: donation_value
+            field:
+              options:
+                -
+                  id: fJoUYrvJ
+                  number: 10
+                  default: false
+                -
+                  id: m35eszr6
+                  number: 20
+                  default: false
+                -
+                  id: m35et17p
+                  number: 50
+                  default: false
+                -
+                  id: m35et2zf
+                  number: 100
+                  default: false
+              allow_custom: true
+              custom_min: 0
+              custom_max: 100000
+              currency: GBP
+              type: variable_number
+              display: 'Donation value'

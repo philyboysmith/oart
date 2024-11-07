@@ -92,3 +92,9 @@ tabs:
               listable: false
               localizable: true
               display: Parent
+          -
+            handle: show_child_pages
+            field:
+              type: checkboxes
+              display: 'Show child pages'
+              instructions: 'Display a list of child pages at the bottom of this page.'

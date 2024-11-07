@@ -1,0 +1,10 @@
+name: wefwef
+email: wefwef@wefwef.com
+message_body: sefwefwefwef
+consent: true
+radio_field: gift_aid
+donation_value: 1
+stripe_checkout_field:
+  label: null
+  checkout_session_id: cs_live_a17qZYHES1jx1Ns5TjHhivKH6Pj5060AFBlYtxvNSRi1xRUe0nWUI9MMiB
+  value: null

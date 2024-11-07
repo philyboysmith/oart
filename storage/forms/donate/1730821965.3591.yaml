@@ -1,0 +1,10 @@
+name: wefwef
+email: wefwef@refwerf.com
+message_body: sdfsdfsdf
+consent: true
+radio_field: gift_aid
+donation_value: 1
+stripe_checkout_field:
+  label: null
+  checkout_session_id: cs_live_a1LEBIzaxzFf3y13qY5eolMmAlKMYLB6AUFhsAxxHFmYbdHl6bEryJ5X7s
+  value: null

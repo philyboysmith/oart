@@ -1,0 +1,45 @@
+
+{{#
+    @name Form
+    @desc The form page builder block.
+    @set page.page_builder.form
+#}}
+
+<!-- /page_builder/_form.antlers.html -->
+{{ partial:page_builder/block }}
+    <div class="span-content md:col-start-[col-3] md:col-span-8 bg-sky-600/30  p-8 ">
+        {{ block:title ?= { partial:typography/h1 as="h2" class="mb-8" :content="block:title" } }}
+        {{ block:text ?= { partial:typography/p :content="block:text" } }}
+
+        {{# Render form and use Alpine based Statamic conditional logic. #}}
+
+    
+        {{ if payment_form:handle }}
+
+        
+        {{ form:create  :in="payment_form:handle" }}
+ 
+        {{ fields }}
+            <div class="p-2">
+                <label>
+                    {{ display }}
+                    {{ if validate | contains:required }}
+                        <sup class="text-red">*</sup>
+                    {{ /if }}
+                </label>
+                <div class="p-1">{{ field }}</div>
+                {{ if error }}
+                    <p class="text-gray-500">{{ error }}</p>
+                {{ /if }}
+            </div>
+        {{ /fields }}
+     
+        {{ partial:components/button as="button" button_type="button" label="Submit" inverted="true"}}
+
+     
+    {{ /form:create }}
+
+        {{ /if }}
+    </div>
+{{ /partial:page_builder/block }}
+<!-- End: /page_builder/_form.antlers.html -->
