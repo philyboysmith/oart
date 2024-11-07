@@ -11,21 +11,58 @@
         {{ partial src="page_builder/{type}" }}
     {{ /page_builder }}
 
-    <div class="container">
-        <nav class="flex justify-between">
-            {{ collection:previous limit="1" from="our-work" sort="order" }}
-            <a href="{{ url }}" class="w-1/2 flex gap-4">
-                {{ heroicon:outline:chevron-left class="h-5 w-5" }} <h2 class="sub-title">{{ title }}</h2>
-            </a>
-            {{ /collection:previous }}
-            {{ collection:next limit="1"  from="our-work" sort="order" }}
-
-            <a href="{{ url }}" class="w-1/2 flex gap-4 flex-row-reverse text-right">
-                {{ heroicon:outline:chevron-right class="h-5 w-5" }} <h2 class="sub-title">{{ title }}</h2>
-            </a>
-            {{ /collection:next }}
-        </nav>
-    </div>
-
 </main>
+
+{{ if show_child_pages }}
+
+{{ svg src="/assets/svg/wave.svg" class="fill-sky-600 w-full  block  -mb-[2px] " }}
+<div class="bg-sky-600 -mb-[4vw] pb-[4vw]">
+    <div class="container py-12 md:py-16 lg:py-24">
+        {{ partial:page_builder/block }}
+
+    <div
+        class="span-content grid md:grid-cols-12 gap-6 py-6 md:py-12 relative z-30">
+
+        {{ partial:typography/h2 content="In this section" class="md:col-start-3 md:col-span-8 text-center text-white" }}
+ 
+        {{ children }}
+        <article class="
+            bg-white flex flex-col overflow-hidden  items-start  border border-neutral/10 shadow-lg rounded no-underline focus:outline-none focus-visible:ring-2 ring-offset-2 ring-primary relative 
+            {{ switch(
+                (total_results === 1) => 'md:col-span-8 md:col-start-3',
+                (total_results === 2) => 'md:col-span-6',
+                (total_results > 2) => 'md:col-span-8 md:col-start-3 lg:col-span-3 lg:col-start-0',
+                () => void
+            )}}
+        ">
+            <a href="{{url}}"
+                class="absolute z-10 inset-0">&nbsp;</a>
+            {{ if image }}
+            <div class="relative">
+                {{ image }}
+                <picture>
+                    <img src="{{ glide:url width='640' }}"
+                        alt="{{ title }}"
+                        class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                </picture>
+                {{ /image }}
+                {{ svg src="/assets/svg/wave.svg" class="fill-white w-full  absolute z-10 bottom-0" }}
+
+            </div>
+            {{ /if }}
+            <div class="mb-4 p-6">
+
+                {{ partial:typography/h3 class="mb-2" :content="title" }}
+                {{ partial:typography/p class="mb-2" :content="seo_description || hero_intro" }}
+
+            </div>
+
+        </article>
+
+        {{ /children}}
+    </div>
+    {{ /partial:page_builder/block }}
+    </div>
+</div>
+{{ /if }}
 <!-- End: /default.antlers.html -->

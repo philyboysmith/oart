@@ -1,0 +1,10 @@
+name: qweqwe
+email: qweqwe@wefwef.com
+message_body: qweqweqwe
+consent: true
+radio_field: gift_aid
+donation_value: 1
+stripe_checkout_field:
+  label: null
+  checkout_session_id: cs_live_a1cardoGbLSvS7S8XmndVTIG1JXZgrVLXUU2NDjn7kXSFNB2uGDJqFjKRF
+  value: null

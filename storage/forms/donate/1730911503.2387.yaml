@@ -1,0 +1,8 @@
+name: Phil
+email: Smith@ss.com
+consent: true
+radio_field: gift_aid
+stripe_checkout_field:
+  label: null
+  checkout_session_id: null
+  value: null

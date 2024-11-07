@@ -42,3 +42,30 @@ tabs:
               validate:
                 - accepted
               visibility: hidden
+          -
+            handle: donation_value
+            field:
+              input_type: number
+              default: '1'
+              type: text
+              display: 'Donation value'
+          -
+            handle: stripe_checkout_field
+            field:
+              products:
+                -
+                  id: m2yvh1l1
+                  product_id: prod_P6gXTxfTimdmOP
+                  has_quantity: '1'
+                  adjustable_quantity: false
+                  handle: donation_value
+              mode_choice: 'no'
+              success_url: 'https://bbc.co.uk'
+              type: stripe_checkout
+              display: 'Stripe Checkout Field'
+              prices:
+                -
+                  id: m32l881y
+                  price_id: annual-donation_2000_yearly
+                  handle: donation_value
+                  adjustable_quantity: false

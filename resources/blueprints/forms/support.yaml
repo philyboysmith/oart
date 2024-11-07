@@ -1,0 +1,24 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: stripe_checkout_field
+            field:
+              products:
+                -
+                  id: m34lttju
+                  product_id: prod_PNhhf10vv7hF8s
+                  handle: donation_value
+                  has_quantity: '1'
+                  adjustable_quantity: false
+              success_url: 'entry::home'
+              type: stripe_checkout
+              display: 'Stripe Checkout Field'
+          -
+            handle: donation_value
+            field:
+              type: text
+              display: 'Donation value'

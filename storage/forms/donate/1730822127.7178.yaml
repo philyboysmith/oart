@@ -1,0 +1,10 @@
+name: fwewer
+email: werwerwe@eswfwef.xco
+message_body: fwewer
+consent: true
+radio_field: gift_aid
+donation_value: 1
+stripe_checkout_field:
+  label: null
+  checkout_session_id: cs_live_a1uGWnVEIS9DKNPwyFdgKhaeRMwsiSsgFA7SaEYE1zdlwM9GMBpN7dloC1
+  value: null

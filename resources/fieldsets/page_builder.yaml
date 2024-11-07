@@ -76,6 +76,15 @@ fields:
                       - pages
                     type: entries
                     display: Projects
+            payment_form:
+              display: 'Payment form'
+              fields:
+                -
+                  handle: payment_form
+                  field: form.form
+                  config:
+                    validate:
+                      - required
         text:
           display: Text
           instructions: 'Text based blocks.'
