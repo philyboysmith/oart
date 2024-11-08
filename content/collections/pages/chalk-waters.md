@@ -5,14 +5,14 @@ title: 'Chalk Waters'
 target_blank: false
 button_type: button
 seo_title: 'Chalk Waters'
-seo_description: 'Enhancing Sussex Chalk Streams'
+seo_description: 'Restoring Sussex’s unique chalk water habitats by enhancing water quality, protecting groundwater, and collaborating on long-term projects to conserve these vital ecosystems for future resilience.'
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1730203979
+updated_at: 1731046219
 page_builder:
   -
     id: m2uep4zy
