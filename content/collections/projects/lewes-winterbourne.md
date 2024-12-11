@@ -1,10 +1,16 @@
 ---
-id: 231e1a1a-73ab-45b3-83a5-723f967d15bc
-blueprint: page
+id: 7863fb20-6a94-467a-a692-472ac0680c08
+blueprint: project
 title: 'Lewes Winterbourne'
+caption: |-
+  # Lewes Winterbourne 
+
+  A ten-year plan to restore this chalk stream to health through sustainable, community-driven action.
+target_blank: false
+button_type: button
 page_builder:
   -
-    id: m2uesqvq
+    id: m4jgzj3x
     article:
       -
         type: paragraph
@@ -29,21 +35,22 @@ page_builder:
         content:
           -
             type: text
-            text: 'From this report we have created the Winterbourne Action Plan, some of the identified actions have begun and are considered to be quick wins for the local environment and community whilst some will take longer to achieve and the cooperation of multiple partners. We therefore believe that a ten year focus on the restoration of the Lewes Winterbourne will enable sustainable, supported and effective action to be implemented for the long-term future of this waterbody.'
+            text: 'From this report we have created the Winterbourne Action Plan, some of the identified actions have begun and are quick wins for the local environment and community whilst some will take longer to achieve and the cooperation of multiple partners. We therefore believe that a ten-year focus on the restoration of the Lewes Winterbourne will enable sustainable, supported and effective action to be implemented for the long-term future of this waterbody.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "This project is supported by the Environment Agency, Lewes District Council and Southern Water.\_"
     type: article
     enabled: true
-target_blank: false
-button_type: button
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
+work:
+  - 58d40c9e-c1f4-46f4-a5ab-28271704abba
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1730204167
-image: w2.jpg
-caption: |-
-  ## Lewes Winterbourne
-
-  Our ten-year restoration plan for sustainable recovery.
+updated_at: 1733907394
 ---

@@ -4,7 +4,9 @@
 #}}
 
 <!-- /layout/_header.antlers.html -->
-<header class="absolute w-full z-50">
+
+
+<header class=" {{if iframe}} relative bg-[#052428]{{ else }} absolute {{/if}} w-full z-50">
     <div class="container">
         <div class="flex justify-between">
         <a class="bg-zinc-900  text-white px-4 pt-3 pb-1 flex gap-4 w-72">
