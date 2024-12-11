@@ -12,4 +12,5 @@ sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
 updated_at: 1730192485
 show_child_pages: true
+template: projects
 ---

@@ -1,0 +1,47 @@
+{{#
+    @name Default
+    @desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+{{ if iframe }}
+
+<iframe width="100%"  src="{{iframe}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="h-screen"></iframe>
+
+{{ else }}
+<!-- /default.antlers.html -->
+{{ partial src="layout/hero" }}
+<main class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24" id="content">
+
+    
+    {{ page_builder scope="block" }}
+    {{ partial src="page_builder/{type}" }}
+    {{ /page_builder }}
+    
+    <div class="fluid-grid">
+        {{ partial:typography/h2 content="Other Projects" class="span-lg text-center " }}
+    <div class="span-lg flex justify-center  items-stretch space-x-4 mt-4">
+    
+        {{ collection:previous in="projects" as="project" limit="1"  }}
+            {{ project }}
+                <a href="{{ url }}" class="flex flex-1 gap-2 justify-end items-center p-4 hover:bg-gray-200 transition border shadow rounded-lg text-xl font-medium">
+                    {{ heroicon:outline:arrow-left class="h-5 w-5" }}
+                    <span class="pt-2">{{ title }}</span>
+                </a>
+            {{ /project }}
+        {{ /collection:previous }}
+    
+        {{ collection:next in="projects" as="project" limit="1"  }}
+            {{ project }}
+            <a href="{{ url }}" class="flex flex-1 gap-2 justify-start items-center p-4 hover:bg-gray-200 transition border shadow rounded-lg text-xl font-medium">
+                <span class="pt-2">{{ title }}</span>
+                {{ heroicon:outline:arrow-right class="h-5 w-5" }}
+            </a>
+            {{ /project }}
+        {{ /collection:next }}
+    </div>
+    </div>
+</main>
+
+
+
+{{ /if }}
