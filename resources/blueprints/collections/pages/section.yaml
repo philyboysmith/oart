@@ -1,0 +1,200 @@
+title: Section
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: General
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              localizable: true
+              listable: true
+              display: Title
+              validate:
+                - required
+      -
+        display: Hero
+        fields:
+          -
+            handle: image
+            field: common.image
+          -
+            handle: caption
+            field:
+              type: markdown
+              localizable: true
+              display: Caption
+          -
+            import: button
+      -
+        display: Subsections
+        fields:
+          -
+            handle: subsections
+            field:
+              mode: stacked
+              type: grid
+              display: Subsections
+              fields:
+                -
+                  handle: title
+                  field:
+                    type: text
+                    display: Title
+                -
+                  handle: article
+                  field: article.article
+                  config:
+                    validate:
+                      - required
+                    sets:
+                      interactive:
+                        display: Interactive
+                        instructions: 'Interactive sets.'
+                        icon: programming-script-code
+                        sets:
+                          buttons:
+                            display: Buttons
+                            instructions: 'Add one or multiple buttons.'
+                            icon: link
+                            hide: null
+                            fields:
+                              -
+                                import: buttons
+                              -
+                                handle: form
+                                field:
+                                  max_items: 1
+                                  type: form
+                                  display: Form
+                      text:
+                        display: Text
+                        instructions: 'Text based sets.'
+                        icon: text-formatting-initial-letter
+                        sets:
+                          pull_quote:
+                            display: 'Pull quote'
+                            instructions: 'Add a pull quote with an optional author.'
+                            icon: text-formatting-quotation
+                            hide: null
+                            fields:
+                              -
+                                import: pull_quote
+                          table:
+                            display: Table
+                            instructions: 'Add a data table with headers, rows and columns.'
+                            icon: layout-grid-dots
+                            hide: null
+                            fields:
+                              -
+                                import: table
+                          blocks:
+                            display: Blocks
+                            instructions: null
+                            icon: dashboard-layout
+                            hide: null
+                            fields:
+                              -
+                                handle: grid_field
+                                field:
+                                  type: grid
+                                  display: 'Grid Field'
+                                  fields:
+                                    -
+                                      handle: title
+                                      field:
+                                        type: text
+                                        display: Title
+                                    -
+                                      handle: body
+                                      field:
+                                        type: markdown
+                                        display: Body
+                      image_video:
+                        display: 'Image & video'
+                        instructions: "Sets with images or embeddable video's."
+                        icon: media-image-camera
+                        sets:
+                          image:
+                            display: Image
+                            instructions: 'Add a single image with an optional caption.'
+                            icon: media-image-picture-orientation
+                            hide: null
+                            fields:
+                              -
+                                import: image
+                          video:
+                            display: Video
+                            instructions: 'Add a YouTube or Vimeo video with an optional caption.'
+                            icon: media-webcam-video
+                            hide: null
+                            fields:
+                              -
+                                import: video
+  seo:
+    display: SEO
+    sections:
+      -
+        display: Basic
+        instructions: 'Basic SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_basic'
+      -
+        display: Advanced
+        instructions: 'Advanced SEO settings.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_advanced'
+      -
+        display: 'Open Graph'
+        instructions: 'Open Graph meta tags for social sharing.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_open_graph'
+      -
+        display: Sitemap
+        instructions: 'Sitemap configuration.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_sitemap'
+      -
+        display: 'JSON-ld Schema'
+        instructions: 'Custom JSON-ld schema objects.'
+        fields:
+          -
+            import: 'statamic-peak-seo::seo_jsonld'
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        display: Meta
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate:
+                - required
+              display: Slug
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true
+              display: Parent
+          -
+            handle: show_child_pages
+            field:
+              type: checkboxes
+              display: 'Show child pages'
+              instructions: 'Display a list of child pages at the bottom of this page.'

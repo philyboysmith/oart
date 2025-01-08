@@ -14,14 +14,16 @@
                     {{ /image }}
                     <div class="overlay"></div>
                     <div class="absolute inset-4 flex flex-col justify-end">
-                        <h3 class="sub-title text-white">Subtitle</h3>
+                        {{work limit="1"}}
+                        <h3 class="sub-title text-white">{{title}}</h3>
+                        {{/work}}
                         <h2 class="headline text-white"> {{ title }}</h2>
                     </div>
                 </div>
             </div>
             {{ /projects }}
             <div class="grid grid-cols-subgrid col-span-8">
-                {{ projects | limit="2" | offset="1" }}
+                {{ projects | limit="3" | offset="1" }}
                 <div class="relative col-span-4 group overflow-hidden">
                     <a href="{{url}}" class="inset-0 absolute z-20"></a>
                     {{ image }}
@@ -29,32 +31,49 @@
                     {{ /image }}
                     <div class="overlay"></div>
                     <div class="absolute inset-4 flex flex-col justify-end">
-                        <h3 class="sub-title text-white">Something</h3>
-                        <h2 class="headline text-white !text-3xl">{{ title }}</h2>
+                        {{work limit="1"}}
+                        <h3 class="sub-title text-white">{{title}}</h3>
+                        {{/work}}
+                                                <h2 class="headline text-white !text-3xl">{{ title }}</h2>
                     </div>
                 </div>
                 {{ /projects }}
             
             </div>
-            <div class="col-span-4 row-start-1 col-start-9  row-span-2 flex flex-col justify-between">
+            <div class="col-span-4 row-start-1 col-start-9  row-span-2 flex flex-col gap-4">
 
-                {{ projects | limit="8" | offset="3" }}
+                {{ projects | limit="10" | offset="3" }}
 
                 <div class="relative flex gap-4 text-sky-950">
                     <a href="{{url}}" class="inset-0 absolute z-20"></a>
-                    <div class="relative group overflow-hidden">
-                        {{ image }}
-                        <img class="w-full aspect-square transition group-hover:scale-105" src="{{url}}" alt="{{alt}}"/>
-                        {{ /image }}
-                        <div class="overlay"></div>
+                    <div class=" group overflow-hidden w-1/3">
+                        <div class="relative">
+                            {{ image }}
+                            <img class="w-full aspect-square transition group-hover:scale-105" src="{{url}}" alt="{{alt}}"/>
+                            {{ /image }}
+                            <div class="overlay"></div>
+                        </div>
                     </div>
-                    <div class="">
-                        <h3 class="sub-title ">Something</h3>
-                        <h2 class="headline !text-2xl">{{ title }}</h2>
+                    <div class="flex-1">
+                        {{work limit="1"}}
+                        <h3 class="sub-title !text-sm">{{title}}</h3>
+                        {{/work}}
+                        <h2 class="headline !text-xl">{{ title }}</h2>
                     </div>
                 </div>
                 {{ /projects }}
             </div>
         </div>
+        <p class="text-center p-12 ">
+            <a class="
+                inline-flex items-baseline gap-0.5 font-bold motion-safe:transition btn" href="/our-projects">
+            <span class="text-ellipsis overflow-x-clip">
+                See more
+            </span>
+    
+            
+        </a>
+
+        </p>
     </div>
 </div>

@@ -95,5 +95,6 @@ sitemap_priority: 0.5
 work:
   - 91eee592-232f-43ab-9faa-ab710626b86e
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733907399
+updated_at: 1736334444
+image: monitroing.jpg
 ---

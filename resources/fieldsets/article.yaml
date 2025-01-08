@@ -38,6 +38,12 @@ fields:
               fields:
                 -
                   import: buttons
+                -
+                  handle: form
+                  field: form.form
+                  config:
+                    validate:
+                      - required
         text:
           display: Text
           instructions: 'Text based sets.'

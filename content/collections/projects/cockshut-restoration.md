@@ -56,7 +56,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733907390
+updated_at: 1736334314
 work:
   - 58d40c9e-c1f4-46f4-a5ab-28271704abba
+image: cockshut-now.jpg
 ---

@@ -31,41 +31,67 @@ page_builder:
             type: text
             text: 'We encourage all those who own land near watercourses to take advantage of our free farm visits and advice. We have an extensive knowledge of the catchment and of funding mechanisms enabling us to support landowners and farmers across the following areas. '
       -
-        type: paragraph
+        type: bulletList
         content:
           -
-            type: text
-            text: 'River Restoration and Enhancement'
-      -
-        type: paragraph
-        content:
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'River Restoration and Enhancement'
           -
-            type: text
-            text: 'Riparian and Floodplain Corridor Management'
-      -
-        type: paragraph
-        content:
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Riparian and Floodplain Corridor Management'
           -
-            type: text
-            text: 'Water Quality Improvements'
-      -
-        type: paragraph
-        content:
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Water Quality Improvements'
           -
-            type: text
-            text: 'Agricultural water resilience (rainwater harvesting, on-farm water storage)'
-      -
-        type: paragraph
-        content:
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Agricultural water resilience (rainwater harvesting, on-farm water storage)'
           -
-            type: text
-            text: 'Biodiversity Net Gain and Environmental Stewardship'
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Biodiversity Net Gain and Environmental Stewardship'
       -
         type: paragraph
         content:
           -
             type: text
             text: 'This broad knowledge allows us to develop options which consider a catchment-based approach to enhancing the landscape along with the economic requirements of those whose passion and livelihoods are entwined with agricultural productivity. '
+      -
+        type: set
+        attrs:
+          id: m5nsl1gi
+          values:
+            type: image
+            image: landowner-workshop.jpg
+            size: md
     type: article
     enabled: true
 seo_noindex: false
@@ -74,7 +100,8 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733907392
+updated_at: 1736334271
 work:
   - 6734f348-d31b-478f-87df-ec1cfc3b8402
+image: cows.jpeg
 ---

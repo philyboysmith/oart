@@ -73,7 +73,7 @@ fields:
                   handle: projects
                   field:
                     collections:
-                      - pages
+                      - projects
                     type: entries
                     display: Projects
             payment_form:

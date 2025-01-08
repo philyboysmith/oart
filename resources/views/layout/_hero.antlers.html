@@ -1,4 +1,4 @@
-<div class="h-[calc(100vh-100px)] max-h-[1024px] w-full relative overflow-hidden hero bg-zinc-950">
+<div class="h-[calc(100vh-100px)] max-h-[800px] w-full relative overflow-hidden hero bg-zinc-950">
     {{ if image}}
     {{ image}}
     <img class="w-full h-full absolute object-cover blurred" src="{{url}}" alt="{{alt}}" />
@@ -13,7 +13,7 @@
     <div class="overlay"></div>
     <div class="absolute inset-0 flex flex-col items-center justify-center">
         <div class="container text-center w-full max-w-xl space-y-4">
-            <div class="text-white text-xl lg:text-2xl [&>h2]:text-4xl [&>h2]:lg:text-6xl [&>h2]:font-bold space-y-2">
+            <div class="text-white text-xl lg:text-2xl [&>h2]:text-4xl [&>h2]:lg:text-6xl [&>h2]:font-extrabold space-y-2">
                 {{ if caption }}
                 {{ caption }}
                 {{ else }}

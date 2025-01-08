@@ -47,9 +47,10 @@ sitemap_priority: 0.5
 work:
   - 25786e93-8cfc-4a73-a3a1-184c646cac41
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733907395
+updated_at: 1736334386
 caption: |-
   ## Ouse Valley NFM Project
 
   Natural solutions to manage floods, restore rivers, and build resilience for communities and ecosystems.
+image: ouse-valley-nfm-leaky-dams.jpg
 ---

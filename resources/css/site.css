@@ -32,7 +32,7 @@
   }
 
   .btn {
-    @apply h-12 inline-flex flex-col justify-center items-center px-5 no-underline uppercase tracking-widest bg-sky-600 text-white relative font-semibold;
+    @apply h-12 inline-flex flex-col justify-center items-center px-5 no-underline  bg-sky-600 text-white relative font-bold rounded overflow-hidden;
   }
   .btn:before {
     @apply absolute inset-0 bg-sky-900 w-0 transition-all duration-300;
@@ -55,7 +55,7 @@
   }
 
   .btn span {
-    @apply relative pt-2
+    @apply relative 
   }
 
   .sub-title {
@@ -64,7 +64,7 @@
   }
 
   .headline {
-    @apply font-semibold text-5xl;
+    @apply font-bold text-5xl;
   }
 
   /* The slider itself */

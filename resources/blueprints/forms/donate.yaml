@@ -25,15 +25,6 @@ tabs:
               localizable: true
               width: 66
           -
-            handle: consent
-            field:
-              inline_label: 'I agree that my submitted data is being collected and stored.'
-              display: Consent
-              type: toggle
-              validate:
-                - accepted
-              visibility: hidden
-          -
             handle: radio_field
             field:
               options:
@@ -44,7 +35,8 @@ tabs:
                   key: no_gift_aid
                   value: 'I am a non-taxpayer and therefore do not qualify for Gift Aid.'
               type: radio
-              display: 'Radio Field'
+              display: 'Gift aid'
+              default: gift_aid
           -
             handle: stripe_checkout_field
             field:

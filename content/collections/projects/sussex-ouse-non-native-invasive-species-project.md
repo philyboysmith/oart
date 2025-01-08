@@ -15,8 +15,9 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733907402
+updated_at: 1736334807
 work:
   - 6734f348-d31b-478f-87df-ec1cfc3b8402
 seo_title: 'Sussex Ouse Non-native Invasive Species Project'
+image: screenshot-2025-01-08-at-11.11.18.jpg
 ---
