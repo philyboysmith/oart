@@ -26,7 +26,7 @@ module.exports = {
         DEFAULT: 'cubic-bezier(0.4, 0, 0.2, 1)',
       },
       fontFamily: {
-            sans: ['FoundersGrotesk', 'sans-serif'],
+            sans: ['aktiv-grotesk', 'sans-serif'],
         },
         container: {
             center: true,
@@ -64,8 +64,8 @@ module.exports = {
       // medium: 500,
       semibold: 600,
       bold: 700,
-      // extrabold: 800,
-      // black: 900,
+      extrabold: 800,
+      black: 900,
     },
   },
   plugins: [

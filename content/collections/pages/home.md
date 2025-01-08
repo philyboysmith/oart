@@ -3,7 +3,7 @@ id: home
 blueprint: page
 title: Home
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1731046332
+updated_at: 1736335519
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -54,11 +54,21 @@ page_builder:
   -
     id: m2ue7w9e
     heading: 'Recent Projects'
-    projects:
-      - cb85a56b-cc1c-44dd-a996-86ceebd37cdb
-      - c06ff523-ee48-499a-aeae-d807fc760669
     type: projects
     enabled: true
+    projects:
+      - 129953d9-9c3d-41f5-acaa-ab4dc21cff7c
+      - e1c8a36e-fe22-4d1c-80a1-b3cacfcd3150
+      - ae6af7b2-4a0f-4fd0-b40d-3dba4f7fbacd
+      - 1b84a27f-ba0c-4f64-b0eb-c8b458de75d2
+      - 7863fb20-6a94-467a-a692-472ac0680c08
+      - 87901720-21d1-4846-ab66-35056ab76508
+      - 4472f28b-d9a3-417b-9dfa-280733dd3c33
+      - e561c1ac-7dd4-472a-849f-29dda002c0d6
+      - 08502e23-be33-4b7f-9382-8e48090e65d0
+      - 05dd6dae-fd5c-44bf-8424-e2eb702918b9
+      - 3c2266b7-516d-4b79-a941-7ccbec8191d8
+      - 1167fe43-d7f3-4fd6-b175-e2e8e44e317c
 image: landing.jpg
 caption: |-
   ## Water, Wetlands & Wildlife

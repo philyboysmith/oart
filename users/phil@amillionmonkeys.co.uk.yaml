@@ -11,3 +11,10 @@ preferences:
         - ammonia
         - nitrate
         - phosphate
+    projects:
+      columns:
+        - title
+        - og_image
+        - slug
+        - status
+        - image

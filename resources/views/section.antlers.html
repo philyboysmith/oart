@@ -1,0 +1,60 @@
+{{#
+@name Default
+@desc The default template with an outer wrapper grid as defined in tailwind.config.js. It makes sure all blocks on a
+page get evenly spaced without having to worry about margins or paddings.
+#}}
+
+<!-- /default.antlers.html -->
+{{ partial src="layout/hero" }}
+<main class="py-12 md:py-16 lg:py-24 stack-12 md:stack-16 lg:stack-24" id="content" x-data="component()" x-init="init()" >
+
+    <div class="fluid-grid">
+        <nav class="col-span-3 col-start-2 text-lg space-y-1">
+            {{ subsections }}
+            <button class="block text-left {{if first}} font-bold{{/if}}" :class="active === '{{title | slugify}}' ? 'text-primary' : 'text-black'" @click="active = '{{title | slugify}}'">{{title}}</button>
+            {{ /subsections}}
+        </nav>
+        {{ subsections }}
+        <section class="col-span-8 space-y-4">
+
+            {{ article }}
+            <div x-show="active === '{{title | slugify}}'" class="prose
+            prose-lg
+            prose-a:underline
+            prose-a:decoration-primary
+            prose-a:decoration-2
+            hover:prose-a:text-primary
+            prose-figure:my-0
+            prose-pre:whitespace-pre-wrap
+            max-w-none">
+                {{ partial src="components/{type}" }}
+            </div>
+            {{ /article }}
+
+            {{ /subsections}}
+        </section>
+    </div>
+
+
+
+</main>
+
+<script>
+    function component() {
+        return {
+            active: '', // Default state
+    
+            init() {
+                // Extract the hash value and remove the leading #
+                const hashValue = window.location.hash.replace('#', '');
+                if (hashValue) {
+                    this.active = hashValue; // Set the state based on the hash
+                } else {
+                    this.active = '{{subsections | first}}{{title | slugify}}{{/subsections}}'
+                }
+            }
+        };
+    }
+    </script>
+
+<!-- End: /default.antlers.html -->

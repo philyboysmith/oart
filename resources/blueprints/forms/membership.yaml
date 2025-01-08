@@ -25,15 +25,6 @@ tabs:
               localizable: true
               width: 66
           -
-            handle: consent
-            field:
-              inline_label: 'I agree that my submitted data is being collected and stored.'
-              display: Consent
-              type: toggle
-              validate:
-                - accepted
-              visibility: hidden
-          -
             handle: radio_field
             field:
               options:
@@ -44,7 +35,8 @@ tabs:
                   key: no_gift_aid
                   value: 'I am a non-taxpayer and therefore do not qualify for Gift Aid.'
               type: radio
-              display: 'Radio Field'
+              display: 'Gift aid'
+              default: gift_aid
           -
             handle: stripe_checkout_field
             field:
@@ -54,20 +46,19 @@ tabs:
                   product_id: prod_RA9CgrZYl63Vvj
                   has_quantity: 1
                   adjustable_quantity: false
-                  handle: donation_value
+                  handle: membership_value
               success_url: 'https://bbc.co.uk'
               type: stripe_checkout
-              display: 'Stripe Checkout Field'
               customer_email: email
               mode: subscription
               mode_choice: 'no'
           -
-            handle: donation_value
+            handle: membership_value
             field:
               options:
                 -
                   id: fJoUYrvJ
-                  number: 10
+                  number: 8
                   default: false
                 -
                   id: m35eszr6
@@ -75,15 +66,16 @@ tabs:
                   default: false
                 -
                   id: m35et17p
-                  number: 50
+                  number: 35
                   default: false
                 -
                   id: m35et2zf
-                  number: 100
+                  number: 50
                   default: false
               allow_custom: true
               custom_min: 0
               custom_max: 100000
               currency: GBP
               type: variable_number
-              display: 'Donation value'
+              display: 'Membership value'
+              layout: button

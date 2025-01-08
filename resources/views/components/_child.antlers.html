@@ -16,18 +16,19 @@
                 <picture>
                     <img src="{{ glide:url width='640' }}"
                         alt="{{ title }}"
-                        class="w-full h-auto aspect-[3/2] object-cover transition translate-z-0">
+                        class="block w-full h-auto aspect-[3/2] object-cover transition translate-z-0 border-b border-white">
                 </picture>
                 {{ /image }}
                 {{ svg src="/assets/svg/wave.svg" class="fill-white w-full  absolute z-10 bottom-0" }}
 
             </div>
             {{ /if }}
-            <div class="mb-4 p-6">
+            <div class="py-4 px-6 flex-1 flex flex-col">
 
                 {{ partial:typography/h3 class="mb-2" :content="title" }}
-                {{ partial:typography/p class="mb-2" :content="seo_description || hero_intro" }}
-
+                <div class="flex gap-2 text-primary items-center text-sm font-semibold mt-auto">
+                    {{ svg:arrow-right class="w-4 h-4 text-current" }} Read more
+                </div>
             </div>
 
         </article>

@@ -1,0 +1,8 @@
+name: Phil
+email: phil@amillionmonkeys.co.uk
+consent: true
+radio_field: gift_aid
+stripe_checkout_field:
+  value: payment
+  checkout_session_id: cs_live_a1gmG2cWLeYVWdfRBGTUZ5hcgeRkgqwAQdZ4ljpNVbl9MKQU7f548hf7m7
+donation_value: '10'

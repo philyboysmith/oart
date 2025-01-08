@@ -81,6 +81,22 @@ page_builder:
           -
             type: text
             text: "Working with natural processes is based on the principle of working with the river system and its floodplains to slow and store water, enhance soil quality and improve water quality, in a more natural way.\_ This can provide multiple benefits to landowners, farmers, communities, and wildlife. We will be taking a strategic approach, based on the outputs of computer modelling and hydrological monitoring, to ensure the right intervention in the right place.\_"
+      -
+        type: set
+        attrs:
+          id: m5nshx5p
+          values:
+            type: image
+            image: uckdffclose.jpg
+            size: md
+      -
+        type: set
+        attrs:
+          id: m5nsi6h0
+          values:
+            type: image
+            image: ucknfm.jpg
+            size: md
     type: article
     enabled: true
 seo_noindex: false
@@ -92,5 +108,6 @@ work:
   - 6734f348-d31b-478f-87df-ec1cfc3b8402
   - 25786e93-8cfc-4a73-a3a1-184c646cac41
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1733896730
+updated_at: 1736334215
+image: river-uck-isfield-mill-2.jpg
 ---

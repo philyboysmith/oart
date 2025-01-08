@@ -1,10 +1,10 @@
 <div x-data="variableNumberFieldtype" data-init="{{ init | to_json | entities }}" data-js="{{ js_driver }}" data-target-container="" data-target="{{ handle }}">
-    <div class="space-y-1">
+    <div class=" flex gap-2 flex-wrap">
         {{ options }}
             <button :class="{
-                       'border-red-500' : option === '{{ number }}'
+                       '!bg-primary text-white' : option === '{{ number }}'
                    }"
-                   class="w-full flex items-center border rounded px-4 py-2"
+                   class="flex items-center border rounded px-4 py-2 bg-white"
                    @click.prevent="option = '{{ number }}'">
                 <div>{{ display }}</div>
             </button>
@@ -14,9 +14,9 @@
         {{ if custom_display === 'visible' }}
         <div class="relative">
             <button :class="{
-                        'border-red-500' : option === 'other'
+                        '!bg-primary text-white' : option === 'other'
                     }"
-                    class="relative z-10 w-full flex items-center border rounded px-4 py-2"
+                    class="relative z-10  flex items-center border rounded px-4 py-2 bg-white"
                     @click.prevent="updateOther">
                 <div class="opacity-0">
                     {{ 'statamic-variable-number-fieldtype::fieldtype.components.custom.placeholder' | trans }}
@@ -41,9 +41,9 @@
         </div>
         {{ else }}
             <button :class="{
-                       'border-red-500' : option === 'other'
+                       '!bg-primary text-white' : option === 'other'
                    }"
-                   class="w-full flex items-center border rounded px-4 py-2"
+                   class="flex items-center border rounded px-4 py-2 bg-white"
                     @click.prevent="updateOther">
                 <div>{{ 'statamic-variable-number-fieldtype::fieldtype.components.options.other' | trans }}</div>
             </button>
