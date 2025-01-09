@@ -11,7 +11,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736327536
+updated_at: 1736416423
 image: 20221103_095828.jpg
 caption: |-
   ## About Us
@@ -352,4 +352,72 @@ subsections:
           -
             type: text
             text: 'Our members also help us achieve our goals through their subscriptions and you can support us through becoming a member or making a donation'
+  -
+    id: m5p50y7t
+    title: Staff
+    article:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'The knowledge of the team gives us the experience to succeed'
+      -
+        type: set
+        attrs:
+          id: m5p51k5i
+          values:
+            type: staff_grid
+            staff:
+              -
+                id: m5p51ky4
+                image: peter-king.jpg
+                name: 'Peter King'
+                role: Director
+                biog: "Pete has been working for the Ouse & Adur Rivers Trust since 2011 developing and delivering projects for people and wildlife. From small scale interventions to large engineering projects, fish passage improvements to mitigating water quality issues, he is focused on ensuring an evidence-based, integrated approach is at the heart of everything we do.\_ An advocate of community participation and partnership working, Pete is also the Chair of the Adur & Ouse Catchment Partnership."
+              -
+                id: m5p5c1c8
+                image: rachel-paget-e1701808555474.jpg
+                name: 'Rachel Paget'
+                role: 'Operations Manager'
+                biog: 'Rachel has worked for the Ouse & Adur Rivers Trust since 2014 and now takes charge of co-ordinating project delivery across the catchment. Specialising in both urban and rural natural flood management and drought resilience, Rachel also has a wide range of experience in delivering fish passage and associated habitat enhancements as well as providing  range of advice on land management for river health.'
+              -
+                id: m5p5dlk6
+                image: alistair-whitby.jpg
+                name: 'Alistair Whitby'
+                role: 'Senior Project Officer'
+                biog: 'Before joining OART in 2019, Alistair worked for many years in international development policy, conservation and environmental education for a range of NGOs. Having been part of the team which restored the Broadwater Brook Alistair is instrumental in the delivery of our chalk streams work along with developing our largescale community projects and campaigns to raise awareness of the water environment. Alistair also runs all our social media via Twitter and Facebook.'
+              -
+                id: m5p5dwtg
+                image: tara-dawson.png
+                name: 'Tara Dawson'
+                role: 'Catchment Officer (River Adur)'
+                biog: 'ITara is dedicated and passionate about preserving and enhancing the local biodiversity and landscape. With experience in ecological surveying and having volunteered with numerous charities to help protected local species, Tara brings a broad knowledge and skill-set in project implementation, engagement, and communication to the role. As the main point of contact for the Adur Adaptation Project, Tara has a fantastic knowledge of the catchment and strategic oversight of the pressures and solutions required for a resilient water environment.'
+              -
+                id: m5p5e7md
+                image: jo-owens.jpg
+                name: 'Jo Owens'
+                role: 'Catchment Officer (River Ouse)'
+                biog: 'Jo has been passionate about the environment since she was a child, and focused her zoology degree on freshwater ecology after witnessing the effects of an algal bloom. She is committed to protecting and restoring aquatic and riparian ecosystems, whilst preserving or enhancing their associated ecosystem services. Jo is working with a range of partners to deliver the River Ouse Invasive Non-Native Species strategy across its three strands of monitoring, biosecurity and control. She is also coordinating OART’s citizen science monitoring projects, including water quality testing and the annual sea trout watch.'
+              -
+                id: m5p5ekjs
+                image: jessica-duggan-1.jpg
+                name: 'Jessica Duggan'
+                role: 'Trust Administrator'
+                biog: |-
+                  With many years experience in Charity Administration, Jess is excited to use these skills for her passion for nature conservation.  
+
+                  Being fortunate to live near the Bevern Stream, her love for wildlife has grown from an interest and passion to the goal of her professional life. She is encouraged by the renewed enthusiasm and movement to nature regeneration and is determined to focus her energies, both professionally and personally, in effecting change for the better.   Working with the brilliant OART team is enlightening and inspiring.
+              -
+                id: m5p5eub6
+                image: loise-mayhew.jpg
+                name: 'Lois Mayhew'
+                role: 'Catchment Manager'
+                biog: |-
+                  Lois has previously worked for Sussex Biodiversity Record Centre on delivery of biodiversity data projects, and more recently for Natural England’s England Ecosystem Survey delivering a national survey programme.
+
+                  As Catchment Manager, Lois works with stakeholders and partners of the Adur and Ouse Catchment Partnership to develop an action plan and through this developing funded projects and initiatives to improve the health of our rivers.
 ---
