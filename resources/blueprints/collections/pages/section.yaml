@@ -114,6 +114,41 @@ tabs:
                                       field:
                                         type: markdown
                                         display: Body
+                          staff_grid:
+                            display: 'Staff grid'
+                            instructions: null
+                            icon: user-multiple
+                            hide: null
+                            fields:
+                              -
+                                handle: staff
+                                field:
+                                  type: grid
+                                  display: Staff
+                                  mode: stacked
+                                  fields:
+                                    -
+                                      handle: image
+                                      field:
+                                        max_files: 1
+                                        container: images
+                                        type: assets
+                                        display: Image
+                                    -
+                                      handle: name
+                                      field:
+                                        type: text
+                                        display: Name
+                                    -
+                                      handle: role
+                                      field:
+                                        type: text
+                                        display: Role
+                                    -
+                                      handle: biog
+                                      field:
+                                        type: markdown
+                                        display: Biog
                       image_video:
                         display: 'Image & video'
                         instructions: "Sets with images or embeddable video's."
