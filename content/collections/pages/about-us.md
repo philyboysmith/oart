@@ -11,7 +11,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736416423
+updated_at: 1736417016
 image: 20221103_095828.jpg
 caption: |-
   ## About Us
@@ -420,4 +420,66 @@ subsections:
                   Lois has previously worked for Sussex Biodiversity Record Centre on delivery of biodiversity data projects, and more recently for Natural England’s England Ecosystem Survey delivering a national survey programme.
 
                   As Catchment Manager, Lois works with stakeholders and partners of the Adur and Ouse Catchment Partnership to develop an action plan and through this developing funded projects and initiatives to improve the health of our rivers.
+  -
+    id: m5p5n73d
+    title: Trustees
+    article:
+      -
+        type: set
+        attrs:
+          id: m5p5num7
+          values:
+            type: staff_grid
+            staff:
+              -
+                id: m5p5nwfz
+                name: 'Philip Evans'
+                role: Chair
+                biog: 'Philip is currently a Director at Savills, a multi-disciplinary international estates and planning consultancy, where he manages a team of acoustics, noise and vibration consultants across the UK. Philip started his career as a geologist working on exploration oil and gas rigs  –  a perfect background to assist at OART with their water sampling analysis, which he has done for many years. He is a keen fisherman, conservationist, deer manager and supports various local and international wildlife groups.  Philip recently became the new chair of the Trust.'
+                image: philip-evans-oart-trustee.jpg
+              -
+                id: m5p5o5j4
+                name: 'Robin Akers'
+                role: 'Vice Chair'
+                biog: 'Robin has been a Trustee of OART for fifteen years. He ran the OART Task Force for nearly ten. He is currently OART Vice Chair and an award winning life-saver.'
+                image: robin-akers-oart-vice-chairman.jpg
+              -
+                id: m5p5ohg4
+                name: 'John “Sam” St Pierre'
+                role: Trustee
+                biog: 'John is better known by his nickname “Sam”. Sam is a retired dental surgeon who has always had an interest in freshwater biology since he was at school. His primary interests are water chemistry and the study of freshwater invertebrates. He is involved in both the water testing and invertebrate monitoring activities of OART and until recently was the Trust’s Chair. He is also Water Resources Officer for the Sussex Branch of the Salmon & Trout Association.'
+                image: profile250x274_sam-stpierre.jpg
+              -
+                id: m5p5otcm
+                name: 'Simon Turner'
+                role: Trustee
+                biog: 'Simon is director of Lewes based technology company NTD Internet. He has been fascinated by rivers and streams and the natural life they support since he was young. Simon provides IT and business services for OART. He is an active member of the task force and also served as OART Pollution Officer. Much of his leisure time is spent managing his land in Barcombe for native wildlife and biodiversity.'
+                image: simon-profile-photo-250x274-1.jpg
+              -
+                id: m5p5p7l4
+                name: 'Ruth Wallis'
+                role: Trustee
+                biog: |-
+                  Ruth was brought up on the Norfolk Broads. Her family farmed around Barton Broad, a Ramsar site. She gained a First Class Honours Degree (BSc) in Rural Enterprise and Land Management from Harper Adams Agricultural College and subsequently managed Estates in Somerset and Suffolk, becoming involved in farmer based projects to create groups to deal with water resource management. 
+
+                  Ruth is now Estate Manager for the Newick and Sutton Hall Estates. The Estate has three dairy herds and eight miles of the River Ouse running through it, including the Longford Stream. The Estate is sensitive to the environmental impact of farming and cognisant of the pressures farmers face trying to deal with caring for the environment. The Estate has worked with OART on a number of projects to improve the river and the Longford Stream.  Ruth has a love of rivers, the sea and the environment supporting them.
+                image: ruthwallis.jpg
+              -
+                id: m5p5pp43
+                name: 'Dr James Ebdon'
+                role: Trustee
+                biog: 'Dr James Ebdon is a Professor of Environmental Microbiology and a lecturer within the School of Environment and Technology at the University of Brighton. He has 15 years’ experience developing and applying novel, low-cost methods for determining sources of contamination in surface waters. He is also interested in safe water and sanitation provision in low-resource settings and has worked on water quality projects in Africa (UNICEF), India, and South America. He has authored 33 publications, including 1 book chapter, and has presented his work to academics, students, engineers, MPs, the general public and water professionals in 18 countries.'
+                image: drjamesebdon_03_jh.jpg
+              -
+                id: m5p5q43v
+                name: 'Roderick Yuill'
+                role: Trustee
+                biog: 'Roderick is a retired Dental Surgeon and was introduced to Game fishing by “Sam” St Pierre over twenty years ago, since when he has been a keen angler, developing an interest in the maintenance and quality of our lakes and rivers. Rod joined the Salmon & Trout Association (now called “Wildfish”) and was Chairman of the Sussex Branch for the last 13 years. Rod was also Chairman of the Cinder Hill Fly Fishing Syndicate for a similar length of time. Rod has been a member of OART for over 10 years.'
+                image: rod-yuill-oart-trustee.jpg
+              -
+                id: m5p5qfzj
+                name: 'Dave Brown'
+                role: Trustee
+                biog: 'Dave is an environmental scientist and the retired head of a university unit, having previously worked in the environmental consultancy sector. He is Hon. Secretary of the Ouse Angling Preservation Society. While a general environmental scientist, with particular experience in fields of environmental impact assessment and environmental auditing, he has a strong interest in the aquatic environment and has worked in a professional capacity on many river systems.'
+                image: profile250x274_dave_brown.jpg
 ---

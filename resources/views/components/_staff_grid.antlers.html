@@ -1,10 +1,12 @@
 <div class="span-lg ">
-    <div class="grid grid-cols-1   gap-4 ">
+    <div class="grid grid-cols-1   gap-4 space-y-4 ">
         {{ staff }}
-        <div class="space-y-0 not-prose p-4 flex flex-col md:flex-row gap-6">
+        <div class="space-y-0 not-prose flex flex-col md:flex-row gap-6">
+            {{ if image}}
             <div>
             <img src="{{image.url}}" alt="{{name}}" class="w-40 h-40 rounded-full object-cover mb-4 mx-auto" />
             </div>
+            {{ /if }}
             <div class="flex-1">
                 <h2 class="text-primary font-bold ">{{name}}</h3>
                 <h3 class="text-primary font-medium !mt-0">{{role}}</h3>
