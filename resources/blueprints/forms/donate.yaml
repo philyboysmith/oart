@@ -47,7 +47,7 @@ tabs:
                   has_quantity: 1
                   adjustable_quantity: false
                   handle: donation_value
-              success_url: 'https://bbc.co.uk'
+              success_url: 'entry::901e0c80-ba42-4e6b-a7e4-6e618626b195'
               type: stripe_checkout
               display: 'Stripe Checkout Field'
               customer_email: email
