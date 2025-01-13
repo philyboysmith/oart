@@ -64,7 +64,13 @@
   }
 
   .headline {
-    @apply font-bold text-5xl;
+    @apply font-bold text-3xl;
+  }
+
+  @screen md {
+    .headline {
+        @apply text-5xl;
+      } 
   }
 
   /* The slider itself */

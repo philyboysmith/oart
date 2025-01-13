@@ -30,6 +30,8 @@ tabs:
               display: Caption
           -
             import: button
+          -
+            import: buttons
       -
         display: Subsections
         fields:

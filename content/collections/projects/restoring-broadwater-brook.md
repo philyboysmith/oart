@@ -36,6 +36,21 @@ page_builder:
           -
             type: text
             text: 'Over 1,700 members of the local community and 1,100 local school children got involved in the project. From wildlife surveys to urban wildlife campaigns, nature photography courses to practical conservation tasks, and oral histories to archaeological investigations there was something for everyone. Citizen science programmes ‘Helping Hands for Harvest Mice’, water testing (chemical and biological) and ecological monitoring brought a further 117 individuals to the project. Our legacy group – the Sompting River Rangers – continues to actively monitor and manage the site through monthly meetings under the coordination of OART.'
+      -
+        type: set
+        attrs:
+          id: m5petn5g
+          values:
+            type: buttons
+            buttons:
+              -
+                id: m5peto2q
+                label: 'Down the end of project report'
+                link_type: asset
+                target_blank: false
+                asset: "01-wanna-be-startin'-somethin'-(1).mp3"
+                button_type: button
+            form: donate
     type: article
     enabled: true
 seo_noindex: false
@@ -46,6 +61,6 @@ sitemap_priority: 0.5
 work:
   - 58d40c9e-c1f4-46f4-a5ab-28271704abba
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736334334
+updated_at: 1736432178
 image: broadwtr-brook-now.jpg
 ---

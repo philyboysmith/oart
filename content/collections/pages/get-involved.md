@@ -11,21 +11,18 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736333982
+updated_at: 1736786033
 show_child_pages:
   - true
-caption: '## Get involved'
+caption: |-
+  ## Get involved
+
+  If you share our passion for rivers and wetlands, whether just your local section or the entire network across our area then there are plenty of ways to get involved.
 subsections:
   -
     id: m5no50p4
     title: 'Get Involved'
     article:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'If you share our passion for rivers and wetlands, whether just your local section or the entire network across our area then there are plenty of ways to get involved.'
       -
         type: paragraph
         content:
@@ -202,4 +199,19 @@ subsections:
                   title: null
             text: info@oart.org.uk
 image: get-involved-3.jpg
+buttons:
+  -
+    id: m5v9gjsa
+    label: 'Make a donation'
+    link_type: entry
+    target_blank: false
+    entry: 3e281283-aa34-424c-a3c6-44fcc0f4bfd5
+    button_type: button
+  -
+    id: m5v9h25i
+    label: 'Become a member'
+    link_type: entry
+    target_blank: false
+    entry: 70c04576-098a-46ee-bb40-dea6732bbf13
+    button_type: button
 ---

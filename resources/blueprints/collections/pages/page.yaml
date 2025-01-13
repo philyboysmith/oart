@@ -29,7 +29,7 @@ tabs:
               localizable: true
               display: Caption
           -
-            import: button
+            import: buttons
       -
         display: 'Page builder'
         fields:
