@@ -10,8 +10,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736417016
+updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
+updated_at: 1742741908
 image: 20221103_095828.jpg
 caption: |-
   ## About Us
@@ -482,4 +482,10 @@ subsections:
                 role: Trustee
                 biog: 'Dave is an environmental scientist and the retired head of a university unit, having previously worked in the environmental consultancy sector. He is Hon. Secretary of the Ouse Angling Preservation Society. While a general environmental scientist, with particular experience in fields of environmental impact assessment and environmental auditing, he has a strong interest in the aquatic environment and has worked in a professional capacity on many river systems.'
                 image: profile250x274_dave_brown.jpg
+              -
+                id: m8lrdhxb
+                image: lydia-burgess-gamble.png
+                name: 'Lydia Burgess -Gamble'
+                role: Trustee
+                biog: 'Lydia is a Nature Based Solutions specialist and Natural Capital discipline lead at JBA Consulting.She has over 22 years of experience in the environment sector, most of her career has been spent in Flood and Coastal Erosion Risk management at the Environment Agency. She also has a background in monitoring river restoration projects, developed through an inter-disciplinary PhD. Lydia’s main area of expertise is restoring natural processes in order to improve the environment for people and wildlife. Lydia has led or co-authored much UK guidance on Natural Flood management, Nature Based Solutions and carbon offsetting. Lydia is co-author of the US Army Corp of Engineers’ international guidelines on the design and construction of Natural and Nature Based Features. Lydia’s technical knowledge enables her to work from source to sea – with expertise in fluvial, estuarine and coastal environments. The focus of her careers has been around promoting the landscape scale restoration of natural processes.'
 ---

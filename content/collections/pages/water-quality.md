@@ -9,8 +9,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1731046133
+updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
+updated_at: 1742743383
 page_builder:
   -
     id: m38c5kgt
@@ -66,7 +66,7 @@ page_builder:
         content:
           -
             type: text
-            text: 'We will expand our monitoring across the whole catchment, incorporating Citizen Science to highlight areas for more in-depth analysis at our testing laboratory. We will advocate the use of nature-based solutions as the preferred solution to water quality issues, whilst seeking to integrate these alongside hard-engineering where necessary. We aim to improve water quality parameters of phosphate, dissolved oxygen and nitrate across 10% of our monitoring area by 2030. (Maybe Link This to the DATA PAGE??)'
+            text: 'We will expand our monitoring across the whole catchment, incorporating Citizen Science to highlight areas for more in-depth analysis at our testing laboratory. We will advocate the use of nature-based solutions as the preferred solution to water quality issues, whilst seeking to integrate these alongside hard-engineering where necessary. We aim to improve water quality parameters of phosphate, dissolved oxygen and nitrate across 10% of our monitoring area by 2030. '
       -
         type: heading
         attrs:

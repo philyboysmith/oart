@@ -1,0 +1,7 @@
+name: 'Peter King'
+email: peter_king3@hotmail.com
+radio_field: no_gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a13zQJ2oAp5ds4omSSdG5d9CdilsXP2uZh6rzRlhzvwMW0av0TXWVcHd0f
+membership_value: '20'

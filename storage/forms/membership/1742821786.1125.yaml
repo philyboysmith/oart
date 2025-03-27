@@ -1,0 +1,7 @@
+name: phil
+email: phil@amillionmonkeus.co.uk
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1gxsAt3SmMXdjV5AMKTFIGsHGqBqYpBdxLfpKxBjYgEPmvQOU40EoaQtW
+membership_value: '20'

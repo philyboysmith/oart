@@ -1,0 +1,4 @@
+name: 'Peter King'
+email: peter.king@oart.org.uk
+radio_field: no_gift_aid
+stripe_checkout_field: subscription

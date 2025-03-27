@@ -52,6 +52,7 @@ tabs:
               customer_email: email
               mode: subscription
               mode_choice: 'no'
+              recurring_interval: year
           -
             handle: membership_value
             field:

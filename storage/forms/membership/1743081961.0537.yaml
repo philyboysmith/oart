@@ -1,0 +1,7 @@
+name: Phil
+email: phil+another@amillionmonkeys.co.uk
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1BA6PKkt5YY7XW2ixAmQHdYlP2xSSJYyTwJBs4i0JrDuq6HeXERGrpkvl
+membership_value: '20'

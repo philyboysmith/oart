@@ -1,0 +1,7 @@
+name: 'john mitchell'
+email: johnwsmitchell@hotmail.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1W5hEgdSrER6cftUKoyDijW6NfeEXRC2fv3Zfknq7VUiVlq30qnv5WSgB
+membership_value: '20'

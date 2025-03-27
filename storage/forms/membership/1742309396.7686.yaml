@@ -1,0 +1,7 @@
+name: 'Alison Knox'
+email: alisonknox1@gmail.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1uhliiYbZKqmTiNpzUZdsk895Pxi8FPw2w5jcLOXv2EoYBabtBHj95Fgq
+membership_value: '50'

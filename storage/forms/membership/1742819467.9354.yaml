@@ -1,0 +1,7 @@
+name: 'Jess Testing'
+email: jessica.duggan@oart.org.uk
+radio_field: no_gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1gXycEi5rr3s5v4wmTvtSLcflJUYPP7aU8EHF4xWNb5Sl1EvzkcckX7pm
+membership_value: '20'

@@ -1,0 +1,7 @@
+name: 'Peter King'
+email: peter.king@oart.org.uk
+radio_field: no_gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1NvyN6uR8p3csAyHJfZi2UqZGQGDGIoKEX09YDzUQFXSECP0BcOUPX3wB
+membership_value: '20'

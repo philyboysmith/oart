@@ -1,0 +1,7 @@
+name: Newsletter
+email: jessica.duggan@oart.org.uk
+radio_field: no_gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a12mb9mE3BXwBp1uvTlcl5BCFjV0AZtFxYedHgCxtu36hAZiWWCbkSEgn0
+membership_value: '20'

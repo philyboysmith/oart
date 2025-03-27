@@ -1,0 +1,7 @@
+name: 'Jessica Viles'
+email: jessica.viles@gmail.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1Atx9zUbER7MqDptfHpbl2OWmmvhd7p2YBi4ymfT3vh8aFArxwrA7mX6V
+membership_value: '35'

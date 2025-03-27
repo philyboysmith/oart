@@ -9,8 +9,8 @@ seo_nofollow: false
 seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
-updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1731046063
+updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
+updated_at: 1742744537
 page_builder:
   -
     id: m38c3x0d
@@ -32,6 +32,14 @@ page_builder:
           -
             type: text
             text: 'To restore our rivers to good health we need to look beyond the river itself and work across the surrounding landscape. We strongly believe in collaborating with farmers, landowners, and partner organizations to create a network of high quality wetlands, control Invasive Non-Native Species (INNS), re-wiggle river channels, and establish buffer strips. We do not believe that it is a choice between health environments or food production, but that sensitive and appropriate landscape enhancements can deliver both.'
+      -
+        type: set
+        attrs:
+          id: m8lt1g0f
+          values:
+            type: image
+            image: himalayan-balsam-main-uck.jpg
+            size: md
       -
         type: heading
         attrs:
@@ -114,6 +122,14 @@ page_builder:
                   -
                     type: text
                     text: 'Create 50ha of wetland habitats across the catchment area.'
+      -
+        type: set
+        attrs:
+          id: m8lssjhb
+          values:
+            type: image
+            image: wetland-creation.jpg
+            size: lg
     type: article
     enabled: true
 seo_description: 'Collaborating with farmers, landowners, and partners to enhance landscape health by creating wetlands, controlling invasive species, and balancing ecological and agricultural needs for thriving rivers and farmlands.'

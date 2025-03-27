@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736335519
+updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
+updated_at: 1742814749
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -48,7 +48,7 @@ page_builder:
   -
     id: m2u8le7h
     heading: 'State of Our Rivers'
-    intro: 'Latest data from our monthly checkups'
+    intro: 'Latest data from our monthly checkups across the River Uck'
     type: data_tool
     enabled: true
   -

@@ -1,0 +1,7 @@
+name: 'Kay MacNaughton'
+email: kayko200@hotmail.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1fbTR1NEm5BxirOUmgxNQkFwFkb0yGZgeRD7K6hy8SB03EhBhBPuO7dwi
+membership_value: '20'

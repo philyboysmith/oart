@@ -1,0 +1,6 @@
+name: 'Jonathan Hammond'
+email: johnny.hammond@btinternet.com
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1t144LhiZPLkkMnoZjotRFniQC1mHOjeHJ2x9Txzu2uVSNr24mnsTIh5Z
+membership_value: '50'
