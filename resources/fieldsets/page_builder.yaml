@@ -85,6 +85,19 @@ fields:
                   config:
                     validate:
                       - required
+            pdf:
+              display: PDF
+              fields:
+                -
+                  handle: file
+                  field:
+                    max_files: 1
+                    min_files: 1
+                    container: files
+                    type: assets
+                    display: File
+                    validate:
+                      - 'mimes:pdf'
         text:
           display: Text
           instructions: 'Text based blocks.'

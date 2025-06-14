@@ -2,8 +2,8 @@
 id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Long form content'
-updated_by: f9af1bbb-3f1a-4ce3-8f7e-eb66cbb69a9a
-updated_at: 1674898078
+updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
+updated_at: 1749876702
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -142,7 +142,7 @@ page_builder:
       -
         type: orderedList
         attrs:
-          order: 1
+          start: 1
         content:
           -
             type: listItem
@@ -227,27 +227,11 @@ page_builder:
           -
             type: text
             text: 'Phasellus egestas, ante at bibendum porttitor, nulla urna pellentesque arcu, ut pulvinar libero mauris at sapien. Maecenas lacinia arcu et diam venenatis eleifend. Ut vestibulum pharetra diam, eget eleifend diam tincidunt ac.'
-      -
-        type: set
-        attrs:
-          id: t467mRog
-          values:
-            type: buttons
-            buttons:
-              -
-                id: dijZ7zid
-                label: 'Lorem ipsum'
-                target_blank: true
-                link_type: url
-                url: 'https://www.youtube.com/watch?v=o-YBDTqX_ZU'
-                button_type: button
-              -
-                id: kuVHCd6j
-                label: 'Dolor sit amet'
-                target_blank: false
-                link_type: entry
-                entry: home
-                button_type: button
     type: article
+    enabled: true
+  -
+    id: mbvrea58
+    file: oart_impact-report_2024.pdf
+    type: pdf
     enabled: true
 ---
