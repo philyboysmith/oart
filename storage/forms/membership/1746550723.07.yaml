@@ -1,0 +1,7 @@
+name: 'Ryan Haines'
+email: ryanh1@me.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1ew8S1Pm4VVAifMze7lZ3NiGCZ3DwhpoBwR8pdevp6wEsTe7PsStxrImx
+membership_value: '50'

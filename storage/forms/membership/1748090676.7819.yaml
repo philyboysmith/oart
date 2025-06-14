@@ -1,0 +1,7 @@
+name: 'Margaret Impey'
+email: maggieimpey1@gmail.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1hJyJht2vT4hJEL9piaELXD4dkar5hd5zkSJpZV9Wlq4ULMOnn8Jhfe4L
+membership_value: '20'

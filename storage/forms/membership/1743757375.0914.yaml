@@ -1,0 +1,7 @@
+name: 'Roderick Yuill'
+email: rodyuill@btinternet.com
+radio_field: gift_aid
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1uTN7DR9iXMTFHWKMl2mKNqAJja117G7SF1vNnCh4wN8ap6wJPsdyRYHg
+membership_value: '20'

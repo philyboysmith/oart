@@ -26,6 +26,15 @@ page_builder:
                   title: null
             text: 'Urban Wetland Network'
       -
+        type: set
+        attrs:
+          id: mbmeanul
+          values:
+            type: image
+            image: dji_0367.jpg
+            size: lg
+            caption: 'Part of our urban wetland network, these ponds at Ringmer provide protection from surface water flooding and provide valuable habitat.'
+      -
         type: paragraph
         content:
           -
@@ -46,8 +55,8 @@ sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 work:
   - 25786e93-8cfc-4a73-a3a1-184c646cac41
-updated_by: 6d534e9b-7329-4caa-8f39-74be0a74c686
-updated_at: 1736334386
+updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
+updated_at: 1749310672
 caption: |-
   ## Ouse Valley NFM Project
 

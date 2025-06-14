@@ -11,7 +11,7 @@ seo_canonical_type: entry
 sitemap_change_frequency: weekly
 sitemap_priority: 0.5
 updated_by: 2b5ffb8a-6d53-45ba-8c96-b62c7b7949f0
-updated_at: 1742741908
+updated_at: 1745325081
 image: 20221103_095828.jpg
 caption: |-
   ## About Us
@@ -395,7 +395,7 @@ subsections:
                 image: tara-dawson.png
                 name: 'Tara Dawson'
                 role: 'Catchment Officer (River Adur)'
-                biog: 'ITara is dedicated and passionate about preserving and enhancing the local biodiversity and landscape. With experience in ecological surveying and having volunteered with numerous charities to help protected local species, Tara brings a broad knowledge and skill-set in project implementation, engagement, and communication to the role. As the main point of contact for the Adur Adaptation Project, Tara has a fantastic knowledge of the catchment and strategic oversight of the pressures and solutions required for a resilient water environment.'
+                biog: 'Tara is dedicated and passionate about preserving and enhancing the local biodiversity and landscape. With experience in ecological surveying and having volunteered with numerous charities to help protected local species, Tara brings a broad knowledge and skill-set in project implementation, engagement, and communication to the role. As the main point of contact for the Adur Adaptation Project, Tara has a fantastic knowledge of the catchment and strategic oversight of the pressures and solutions required for a resilient water environment.'
               -
                 id: m5p5e7md
                 image: jo-owens.jpg
@@ -485,7 +485,7 @@ subsections:
               -
                 id: m8lrdhxb
                 image: lydia-burgess-gamble.png
-                name: 'Lydia Burgess -Gamble'
+                name: 'Lydia Burgess-Gamble'
                 role: Trustee
-                biog: 'Lydia is a Nature Based Solutions specialist and Natural Capital discipline lead at JBA Consulting.She has over 22 years of experience in the environment sector, most of her career has been spent in Flood and Coastal Erosion Risk management at the Environment Agency. She also has a background in monitoring river restoration projects, developed through an inter-disciplinary PhD. Lydia’s main area of expertise is restoring natural processes in order to improve the environment for people and wildlife. Lydia has led or co-authored much UK guidance on Natural Flood management, Nature Based Solutions and carbon offsetting. Lydia is co-author of the US Army Corp of Engineers’ international guidelines on the design and construction of Natural and Nature Based Features. Lydia’s technical knowledge enables her to work from source to sea – with expertise in fluvial, estuarine and coastal environments. The focus of her careers has been around promoting the landscape scale restoration of natural processes.'
+                biog: 'Lydia is a Nature Based Solutions specialist and Natural Capital discipline lead at JBA Consulting. She has over 22 years of experience in the environment sector, most of her career has been spent in Flood and Coastal Erosion Risk management at the Environment Agency. She also has a background in monitoring river restoration projects, developed through an inter-disciplinary PhD. Lydia’s main area of expertise is restoring natural processes in order to improve the environment for people and wildlife. Lydia has led or co-authored much UK guidance on Natural Flood management, Nature Based Solutions and carbon offsetting. Lydia is co-author of the US Army Corp of Engineers’ international guidelines on the design and construction of Natural and Nature Based Features. Lydia’s technical knowledge enables her to work from source to sea – with expertise in fluvial, estuarine and coastal environments. The focus of her careers has been around promoting the landscape scale restoration of natural processes.'
 ---

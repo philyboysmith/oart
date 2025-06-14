@@ -1,0 +1,6 @@
+name: 'Malcolm Ritchie'
+email: wdmrich@gmail.com
+stripe_checkout_field:
+  value: subscription
+  checkout_session_id: cs_live_a1NelF2rsgfWZqP2YmfFlXxycp9PVBozHm4uofr9yPAt6aAGLXfI88oEZ9
+membership_value: '50'

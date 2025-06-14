@@ -1,0 +1,7 @@
+name: 'Chloe Flexman / Buff Motion Ltd'
+email: chloe@buffmotion.com
+radio_field: no_gift_aid
+stripe_checkout_field:
+  value: payment
+  checkout_session_id: cs_live_a1QH88UtpdldSftHZFVv22lub16Gh3zHkzd199QgiFPHi4i39ldjuAiDMt
+donation_value: '710'
