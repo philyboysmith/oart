@@ -172,6 +172,21 @@ tabs:
                             fields:
                               -
                                 import: video
+                          pdf:
+                            display: PDF
+                            instructions: null
+                            icon: null
+                            hide: null
+                            fields:
+                              -
+                                handle: pdf
+                                field:
+                                  max_files: 1
+                                  container: files
+                                  type: assets
+                                  display: PDF
+                                  validate:
+                                    - 'mimes:pdf'
   seo:
     display: SEO
     sections:

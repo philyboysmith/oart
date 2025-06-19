@@ -102,3 +102,16 @@ fields:
               fields:
                 -
                   import: video
+            pdf:
+              display: PDF
+              icon: file-content-list
+              fields:
+                -
+                  handle: pdf
+                  field:
+                    max_files: 1
+                    container: files
+                    type: assets
+                    display: PDF
+                    validate:
+                      - 'mimes:pdf'
