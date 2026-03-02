@@ -1,0 +1,45 @@
+{{#
+    @name News Show
+    @desc Single news article template.
+#}}
+
+<!-- /news/show.antlers.html -->
+{{ partial src="layout/hero" }}
+
+<div class="-mb-[4vw] pb-[4vw]">
+    <div class="container py-12 md:py-16">
+        <article class="max-w-3xl mx-auto">
+            <header class="mb-8">
+                <time class="text-neutral-500 mb-2 block">
+                    {{ date format="F jS, Y" }}
+                </time>
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">{{ title }}</h1>
+                
+                {{ if excerpt }}
+                <p class="text-xl text-neutral-600">{{ excerpt }}</p>
+                {{ /if }}
+            </header>
+            
+            {{ if featured_image }}
+            <div class="relative mb-8 rounded-lg overflow-hidden">
+                {{ featured_image }}
+                <img src="{{ glide:url width='1200' }}"
+                    alt="{{ title }}"
+                    class="w-full h-auto">
+                {{ /featured_image }}
+            </div>
+            {{ /if }}
+            
+            <div class="prose prose-lg max-w-none">
+                {{ content }}
+            </div>
+            
+            <footer class="mt-12 pt-8 border-t border-neutral-200">
+                <a href="/news" class="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
+                    {{ svg:arrow-left class="w-4 h-4" }} Back to News
+                </a>
+            </footer>
+        </article>
+    </div>
+</div>
+<!-- End: /news/show.antlers.html -->
